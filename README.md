@@ -21,8 +21,11 @@ This project is an enhanced Q&A chatbot built using Ollama and Streamlit. The ch
     ```bash
     pip install -r requirements.txt
     ```
+3. Also download ollama on your local machine as this project will use your local machine and not any api.
+   
 
-3. Create a `.env` file in the root directory and add your LangChain API key:
+   
+5. Create a `.env` file in the root directory and add your LangChain API key:
     ```env
     LANGCHAIN_API_KEY=your_api_key_here
     ```
